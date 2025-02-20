@@ -1,4 +1,7 @@
+# base method
+#
 def func(name):
+    '''define func'''
     print(f'hi {name}')
 
 
