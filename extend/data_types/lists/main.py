@@ -71,3 +71,16 @@ print(list_, list_cop)
 list_cop = list(list_)
 print(id(list_), id(list_cop))
 print(list_, list_cop)
+
+# task
+first_list = [1,2,3,4,5]
+print(first_list)
+first_list.pop(2)
+print(first_list)
+first_list.__len__()
+print(first_list)
+first_list.reverse()
+print(first_list)
+second_list = [14,15]
+thirth_list = first_list + second_list
+print(thirth_list)
