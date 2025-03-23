@@ -1,0 +1,1 @@
+start from small flask app/fast api (easyer)

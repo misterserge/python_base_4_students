@@ -84,3 +84,7 @@ print(first_list)
 second_list = [14,15]
 thirth_list = first_list + second_list
 print(thirth_list)
+thirth_list = second_list.__add__(first_list)
+print(thirth_list)
+thirth_list = first_list.extend(second_list)
+print(thirth_list)
