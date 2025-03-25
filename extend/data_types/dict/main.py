@@ -40,4 +40,12 @@ my_dict2.pop('address')
 print(my_dict2)
 my_dict2.popitem()
 print(my_dict2)
+new_dict = my_dict2.copy()
+print(new_dict)
+new_dict['middle_name'] = 'Alice'
+print(new_dict)
+print(my_dict2)
 
+my_list = [('name', 'Bob'), ['bool', True], ['list', [1,2,3]]]
+my_dict3 = dict(my_list)
+print(my_dict3)
