@@ -8,6 +8,8 @@ print(users)
 users[2]["name"] = "John"
 
 print(users)
+print(users+users)
+print(users[len(users)-1])
 
 
 
