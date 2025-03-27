@@ -4,6 +4,7 @@ post_ids2 = {(10, 40), 40, 30, 40, 25}
 new_set = set()
 print(type(new_set))
 print(post_ids2.intersection(post_ids))
+print(post_ids2.symmetric_difference(post_ids))
 one_more_set = set([1,2,3,4,5]).union(post_ids)
 
 print(one_more_set)
