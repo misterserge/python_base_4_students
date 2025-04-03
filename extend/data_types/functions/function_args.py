@@ -63,6 +63,6 @@ initial_post = {
     'surname': 'Doe'
 }
 
-post_with_weekday = create_new_post(initial_post)
+post_with_weekday = create_new_post(initial_post, weekday='Monday')
 print(post_with_weekday)
 # Output: {'post_id': 1, 'name': 'John', 'surname': 'Doe', 'created at weekday': 'Monday'}
