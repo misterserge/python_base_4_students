@@ -49,3 +49,24 @@ print(my_dict2)
 my_list = [('name', 'Bob'), ['bool', True], ['list', [1,2,3]]]
 my_dict3 = dict(my_list)
 print(my_dict3)
+
+button = {
+    'width': 100,
+    'height': 200,
+    'color': 'red',
+}
+
+blue_button = {
+    **button,
+    'color': 'blue'
+}
+
+print(button | blue_button)
+print(blue_button)
+print(button)
+del button['width']
+button.__delitem__('width')
+print(button)
+
+button.clear()
+print(button)
